@@ -136,13 +136,13 @@
 
 <style>
 	:global(body){
-        background-color: lightseagreen;
-        background-image: url("https://images.pexels.com/photos/566862/pexels-photo-566862.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+		background-color: lightseagreen;
+		background-image: url("https://images.pexels.com/photos/566862/pexels-photo-566862.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
-    }
+    	}
 	.tab-icon {
 		height: 20px;
 	}
