@@ -75,8 +75,8 @@
 		
 	};
 
-	onMount(() => {
-		fetch(RSS_URL)
+	onMount(async () => {
+		await fetch(RSS_URL)
 			.then(response => response.text())
 			.then(str => new window.DOMParser().parseFromString(str, "text/xml"))
 			.then(data => border_rss_data = data);
